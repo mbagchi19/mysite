@@ -5,10 +5,13 @@ body{
 }
 h1{
     margin-top: 0;
+    font-size: 500%;
     font-family: 'Sacramento', cursive;
+    color:darkred;
 }
 h2{
     font-family: 'Pacifico', cursive;
+    color: darkred;
 }
 h3{
     font-family: 'Architects Daughter', cursive;
@@ -27,18 +30,18 @@ h3{
 .lower{
     background-color: #ffd56b;
     padding: 20px;
+    text-align: center;
+    align-content: center;
 }
 .bottom{
     background-color: #939b62;
     padding: 20px;
 }
 .rightone{
-    position: absolute;
-    right: 30px;
+    padding-left: 70%;
 }
 .leftone{
-    position: absolute;
-    left: 30px;
+    padding-right: 70%;
 }
 #title{
     padding-top: 10px;
@@ -50,6 +53,7 @@ li{
 #me{
     position:sticky;
     left:100px;
+    color: #654321;
 }
 .gear{
     list-style:square;
